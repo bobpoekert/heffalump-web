@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { FormattedMessage } from 'react-intl';
 import DisplayName from '../../../components/display_name';
 import ImmutablePropTypes from 'react-immutable-proptypes';

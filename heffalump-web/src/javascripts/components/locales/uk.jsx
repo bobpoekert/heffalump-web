@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 const uk = {
   "column_back_button.label": "Назад",
   "lightbox.close": "Закрити",

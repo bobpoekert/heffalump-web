@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { combineReducers } from 'redux-immutable';
 import timelines from './timelines';
 import meta from './meta';

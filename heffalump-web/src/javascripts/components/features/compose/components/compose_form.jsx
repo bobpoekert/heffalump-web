@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import CharacterCounter from './character_counter';
 import Button from '../../../components/button';
 import PureRenderMixin from 'react-addons-pure-render-mixin';

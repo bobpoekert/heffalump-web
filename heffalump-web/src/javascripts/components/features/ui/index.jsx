@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import ColumnsArea from './components/columns_area';
 import NotificationsContainer from './containers/notifications_container';
 import PureRenderMixin from 'react-addons-pure-render-mixin';

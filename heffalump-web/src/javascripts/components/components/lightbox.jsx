@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import IconButton from './icon_button';
 import { Motion, spring } from 'react-motion';

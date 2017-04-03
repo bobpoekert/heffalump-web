@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import Avatar from '../../../components/avatar';
 import DisplayName from '../../../components/display_name';
 import ImmutablePropTypes from 'react-immutable-proptypes';

@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import ColumnSettings from '../components/column_settings';
 import { changeSetting, saveSettings } from '../../../actions/settings';

@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 const hu = {
   "column_back_button.label": "Vissza",
   "lightbox.close": "Bezárás",

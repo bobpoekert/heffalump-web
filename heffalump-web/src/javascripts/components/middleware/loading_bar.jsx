@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
 const defaultTypeSuffixes = ['PENDING', 'FULFILLED', 'REJECTED'];

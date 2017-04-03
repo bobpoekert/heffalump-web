@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import PrivacyDropdown from '../components/privacy_dropdown';
 import { changeComposeVisibility } from '../../../actions/compose';

@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import TextIconButton from '../components/text_icon_button';
 import { changeComposeSpoilerness } from '../../../actions/compose';

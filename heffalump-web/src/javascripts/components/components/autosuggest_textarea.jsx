@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import AutosuggestAccountContainer from '../features/compose/containers/autosuggest_account_container';
 import ImmutablePropTypes from 'react-immutable-proptypes';
 import { isRtl } from '../rtl';

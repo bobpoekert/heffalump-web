@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 const es = {
   "column_back_button.label": "Atrás",
   "lightbox.close": "Cerrar",

@@ -1,4 +1,5 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
+import $ from 'jquery';
 import api, { getLinks } from '../api'
 import Immutable from 'immutable';
 import IntlMessageFormat from 'intl-messageformat';

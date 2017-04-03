@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import Dropdown, { DropdownTrigger, DropdownContent } from 'react-simple-dropdown';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 

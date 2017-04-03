@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 const fr = {
   "account.block": "Bloquer",
   "account.edit_profile": "Modifier le profil",

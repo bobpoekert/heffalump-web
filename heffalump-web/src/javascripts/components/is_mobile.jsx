@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 const LAYOUT_BREAKPOINT = 1024;
 
 export function isMobile(width) {

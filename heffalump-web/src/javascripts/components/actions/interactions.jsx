@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import api from '../api'
 
 export const REBLOG_REQUEST = 'REBLOG_REQUEST';

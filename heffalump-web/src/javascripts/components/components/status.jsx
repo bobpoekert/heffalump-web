@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import ImmutablePropTypes from 'react-immutable-proptypes';
 import Avatar from './avatar';
 import RelativeTimestamp from './relative_timestamp';

@@ -1,5 +1,7 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import WebSocketClient from 'websocket.js';
+
+var STREAMING_API_BASE_URL = window.STREAMING_API_BASE_URL || '';
 
 const createWebSocketURL = (url) => {
   const a = document.createElement('a');

@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import Column from '../ui/components/column';
 import ColumnLink from '../ui/components/column_link';
 import { Link } from 'react-router';

@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect }   from 'react-redux';
 import NavigationBar from '../components/navigation_bar';
 

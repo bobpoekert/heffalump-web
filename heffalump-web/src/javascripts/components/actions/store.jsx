@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import Immutable from 'immutable';
 
 export const STORE_HYDRATE = 'STORE_HYDRATE';

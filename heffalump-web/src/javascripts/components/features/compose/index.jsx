@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import ComposeFormContainer from './containers/compose_form_container';
 import UploadFormContainer from './containers/upload_form_container';
 import NavigationContainer from './containers/navigation_container';

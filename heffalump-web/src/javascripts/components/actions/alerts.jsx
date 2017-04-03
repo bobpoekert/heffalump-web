@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 export const ALERT_SHOW    = 'ALERT_SHOW';
 export const ALERT_DISMISS = 'ALERT_DISMISS';
 export const ALERT_CLEAR   = 'ALERT_CLEAR';

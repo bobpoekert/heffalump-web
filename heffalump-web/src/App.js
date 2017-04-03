@@ -8,6 +8,7 @@ import './App.styl';
 import styles from './Modules.css';
 
 import {Mastodon, populateInitialState} from './javascripts/components/containers/mastodon';
+import axios from 'axios';
 
 function getAttrsByTagName(tag_name, html_blob) {
     var re = new RegExp('\<\s*'+tag_name+'\s*(.+?)\>');
@@ -63,7 +64,7 @@ class App extends Component {
         var password = this.state.password;
         axios.get('/auth/sign_in').then(function(first_response) {
             if (first_response.status == 200) {
-                var metaTags = getAttrsByTagName('meta', response.body);
+                var metaTags = getAttrsByTagName('meta', first_response.body);
                 var csrfKey = null;
                 var csrfValue = null;
                 for (var i=0; i < metaTags.length; i++) {
@@ -82,7 +83,7 @@ class App extends Component {
                 var params = {
                     'utf8':'%E2%9C%93',
                     'user%5Bemail%5D':userEmail,
-                    'user%5Bpassword%5D':userPassword,
+                    'user%5Bpassword%5D':password,
                     'button':''
                 };
                 params[csrfKey] = csrfValue;
@@ -121,6 +122,5 @@ class App extends Component {
     }
 
 }
-
 
 export default App;

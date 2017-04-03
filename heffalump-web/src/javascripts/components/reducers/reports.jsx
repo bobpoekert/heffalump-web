@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import {
   REPORT_INIT,
   REPORT_SUBMIT_REQUEST,

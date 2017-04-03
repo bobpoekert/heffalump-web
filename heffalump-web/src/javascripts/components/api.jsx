@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import axios from 'axios';
 import LinkHeader from 'http-link-header';
 

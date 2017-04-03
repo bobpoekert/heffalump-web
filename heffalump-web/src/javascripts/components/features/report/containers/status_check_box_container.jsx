@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import StatusCheckBox from '../components/status_check_box';
 import { toggleStatusReport } from '../../../actions/reports';

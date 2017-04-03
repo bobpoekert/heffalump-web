@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 
 // From: http://stackoverflow.com/a/18320662

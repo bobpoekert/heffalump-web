@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import { injectIntl, defineMessages } from 'react-intl';
 import IconButton from '../../../components/icon_button';

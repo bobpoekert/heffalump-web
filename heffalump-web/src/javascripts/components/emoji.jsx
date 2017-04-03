@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import emojione from 'emojione';
 
 const toImage = str => shortnameToImage(unicodeToImage(str));

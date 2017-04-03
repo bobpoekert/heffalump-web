@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import {
   ACCOUNT_FOLLOW_SUCCESS,
   ACCOUNT_UNFOLLOW_SUCCESS,

@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { injectIntl, FormattedRelative } from 'react-intl';
 
 const RelativeTimestamp = ({ intl, timestamp }) => {

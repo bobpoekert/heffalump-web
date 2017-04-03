@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import ColumnHeader from './column_header';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 

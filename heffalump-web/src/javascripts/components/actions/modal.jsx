@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 export const MEDIA_OPEN  = 'MEDIA_OPEN';
 export const MODAL_CLOSE = 'MODAL_CLOSE';
 

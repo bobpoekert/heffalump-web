@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import Status from './status';
 import ImmutablePropTypes from 'react-immutable-proptypes';
 import PureRenderMixin from 'react-addons-pure-render-mixin';

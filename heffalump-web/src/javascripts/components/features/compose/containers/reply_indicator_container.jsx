@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import { cancelReplyCompose } from '../../../actions/compose';
 import { makeGetStatus } from '../../../selectors';

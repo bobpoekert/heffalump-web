@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import api, { getLinks } from '../api'
 import { fetchRelationships } from './accounts';
 

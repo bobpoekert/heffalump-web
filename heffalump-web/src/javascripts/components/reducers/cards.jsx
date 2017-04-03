@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { STATUS_CARD_FETCH_SUCCESS } from '../actions/cards';
 
 import Immutable from 'immutable';

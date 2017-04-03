@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { SETTING_CHANGE } from '../actions/settings';
 import { STORE_HYDRATE } from '../actions/store';
 import Immutable from 'immutable';

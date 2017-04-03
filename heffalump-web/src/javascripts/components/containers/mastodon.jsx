@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import configureStore from '../store/configureStore';
 import {
@@ -55,11 +55,11 @@ const store = configureStore();
 //store.dispatch(hydrateStore(window.INITIAL_STATE));
 
 function populateInitialState(stateBlob) {
-    store.dispatch(hydrateState(stateBlob));
+    store.dispatch(hydrateStore(stateBlob));
 }
 
 if (typeof(window.INITIAL_STATE) != 'undefined') {
-    pupulateInitialState(window.INITIAL_STATE);
+    populateInitialState(window.INITIAL_STATE);
 }
 
 const browserHistory = useRouterHistory(createBrowserHistory)({

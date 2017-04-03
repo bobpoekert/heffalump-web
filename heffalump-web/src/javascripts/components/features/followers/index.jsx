@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import ImmutablePropTypes from 'react-immutable-proptypes';
@@ -6,7 +6,8 @@ import LoadingIndicator from '../../components/loading_indicator';
 import {
   fetchAccount,
   fetchFollowers,
-  expandFollowers
+  expandFollowers,
+  expandFollowing
 } from '../../actions/accounts';
 import { ScrollContainer } from 'react-router-scroll';
 import AccountContainer from '../../containers/account_container';

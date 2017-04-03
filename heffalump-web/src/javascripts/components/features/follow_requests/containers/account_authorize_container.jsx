@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import { makeGetAccount } from '../../../selectors';
 import AccountAuthorize from '../components/account_authorize';

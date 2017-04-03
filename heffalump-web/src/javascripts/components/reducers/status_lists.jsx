@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import {
   FAVOURITED_STATUSES_FETCH_SUCCESS,
   FAVOURITED_STATUSES_EXPAND_SUCCESS

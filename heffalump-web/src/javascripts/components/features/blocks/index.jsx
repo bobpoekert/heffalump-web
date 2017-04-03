@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import ImmutablePropTypes from 'react-immutable-proptypes';

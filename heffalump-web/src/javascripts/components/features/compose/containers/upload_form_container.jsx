@@ -1,4 +1,4 @@
-import React from react; import ReactDOM from react-dom;
+import React from 'react'; import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import UploadForm from '../components/upload_form';
 import { undoUploadCompose } from '../../../actions/compose';
