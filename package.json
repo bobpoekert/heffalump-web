@@ -6,8 +6,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "proxy":"https://mastodon.social",
   "devDependencies": {
-      "react-scripts": "0.6.1"
+      "react-scripts": "0.8.4"
   },
   "dependencies": {
     "@kadira/storybook": "^2.35.3",
