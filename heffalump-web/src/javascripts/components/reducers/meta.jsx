@@ -8,6 +8,7 @@ const initialState = Immutable.Map({
 });
 
 export default function meta(state = initialState, action) {
+    console.log(action);
   switch(action.type) {
   case STORE_HYDRATE:
     return state.merge(action.state.get('meta'));

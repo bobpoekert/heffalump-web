@@ -38,8 +38,9 @@ class App extends Component {
 
     populateState() {
         var store = window.localStorage.getItem('initialState');
-        if (store) {
-            this.updateState({initialState: JSON.parse(store)});
+        if (store !== null) {
+            var init = JSON.parse(store);
+            this.state.initialState = init;
         } else {
             this.fetchInitialState();
         }
@@ -55,7 +56,8 @@ class App extends Component {
 
     setInitialStateJson(jsonBlob) {
         window.localStorage.setItem('initialState', jsonBlob);
-        this.updateState({initialState: JSON.parse(jsonBlob)});
+        var state = JSON.parse(jsonBlob);
+        this.setState({initialState: state});
     }
 
     fetchInitialState() {

@@ -54,7 +54,7 @@ const store = configureStore();
 // TODO: window.INITIAL_STATE is populated by a rails-generated script tag; replcae with an XHR
 //store.dispatch(hydrateStore(window.INITIAL_STATE));
 
-function populateInitialState(stateBlob) {
+export function populateInitialState(stateBlob) {
     store.dispatch(hydrateStore(stateBlob));
 }
 
@@ -68,7 +68,7 @@ const browserHistory = useRouterHistory(createBrowserHistory)({
 
 addLocaleData([...en, ...de, ...es, ...fr, ...pt, ...hu, ...uk]);
 
-const Mastodon = React.createClass({
+export const Mastodon = React.createClass({
 
   propTypes: {
     locale: React.PropTypes.string.isRequired
@@ -156,4 +156,4 @@ const Mastodon = React.createClass({
 
 });
 
-export default Mastodon;
+
