@@ -1,7 +1,7 @@
 import React from 'react'; import ReactDOM from 'react-dom';
 import WebSocketClient from 'websocket.js';
 
-var STREAMING_API_BASE_URL = window.STREAMING_API_BASE_URL || '';
+var STREAMING_API_BASE_URL = window.STREAMING_API_BASE_URL || 'https://mastodon.social';
 
 const createWebSocketURL = (url) => {
   const a = document.createElement('a');

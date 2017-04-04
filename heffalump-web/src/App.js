@@ -1,12 +1,6 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 
-//styles
-import './App.less';
-import './App.scss';
-import './App.styl';
-import styles from './Modules.css';
-
 import {Mastodon, populateInitialState} from './javascripts/components/containers/mastodon';
 import axios from 'axios';
 
@@ -111,7 +105,7 @@ class App extends Component {
             return (<h1>loading...</h1>);
         } else if (this.state.initialState) {
             populateInitialState(this.state.initialState);
-            return (<Mastodon lang="en"/>);
+            return (<Mastodon locale="en"/>);
         } else {
             return (
                 <form onSubmit={this.loginFormSubmit}>

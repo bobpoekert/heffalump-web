@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables.scss';
 
 .button {
   background-color: darken($color4, 3%);
@@ -1174,7 +1174,7 @@ a.status__content__spoiler-link {
   }
 }
 
-@import 'boost';
+@import 'boost.scss';
 
 button i.fa-retweet {
   height: 19px;

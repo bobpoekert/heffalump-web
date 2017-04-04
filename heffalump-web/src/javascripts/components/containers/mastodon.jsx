@@ -49,6 +49,9 @@ import getMessagesForLocale from '../locales';
 import { hydrateStore } from '../actions/store';
 import createStream from '../stream';
 
+// css
+// import '../../../stylesheets/application.scss';
+
 const store = configureStore();
 
 // TODO: window.INITIAL_STATE is populated by a rails-generated script tag; replcae with an XHR

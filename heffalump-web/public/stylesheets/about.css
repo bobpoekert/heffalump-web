@@ -1,0 +1,230 @@
+.about-body .wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #9baec8;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .about-body .wrapper.thicc {
+    max-width: 700px; }
+
+.about-body h1 {
+  font: 46px/52px 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2b90d9;
+  padding: 20px 0; }
+  .about-body h1 img {
+    margin-bottom: -5px;
+    margin-right: 5px;
+    width: 46px;
+    height: 46px; }
+
+.about-body h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #ffffff; }
+
+.about-body h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #d9e1e8; }
+
+.about-body ul, .about-body ol {
+  list-style: inherit;
+  margin-left: 20px; }
+  .about-body ul[type='a'], .about-body ol[type='a'] {
+    list-style-type: lower-alpha; }
+  .about-body ul[type='i'], .about-body ol[type='i'] {
+    list-style-type: lower-roman; }
+
+.about-body li > ol, .about-body li > ul {
+  margin-top: 20px; }
+
+.about-body p, .about-body li {
+  font: 16px/28px 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-bottom: 26px; }
+  .about-body p a, .about-body li a {
+    color: #2b90d9;
+    text-decoration: underline; }
+
+.about-body em {
+  display: inline-block;
+  padding: 7px 7px 5px 7px;
+  margin: 0 2px;
+  background: #9baec8;
+  color: #282c37;
+  font: 16px/16px 'Montserrat', sans-serif;
+  font-weight: 300; }
+
+.about-body .screenshot {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 26px; }
+  .about-body .screenshot img {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+
+.about-body .actions {
+  overflow: hidden;
+  margin-bottom: 20px; }
+  .about-body .actions .info {
+    float: right;
+    text-align: right;
+    line-height: 36px; }
+    .about-body .actions .info a {
+      color: #9baec8;
+      text-decoration: underline; }
+
+@media screen and (max-width: 625px) {
+  .about-body .wrapper {
+    padding: 20px; }
+  .about-body .screenshot-with-signup .mascot {
+    display: none; }
+  .about-body .features-list {
+    display: block; } }
+
+.information-board {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #3d4455;
+  border-bottom: 1px solid #3d4455;
+  padding-right: 14px; }
+  .information-board .section {
+    flex: 1 0 0;
+    padding: 14px;
+    text-align: right;
+    font: 16px/28px 'Montserrat', sans-serif; }
+    .information-board .section span, .information-board .section strong {
+      display: block; }
+    .information-board .section span {
+      font-size: 16px; }
+      .information-board .section span:last-child {
+        color: #d9e1e8;
+        font-size: 14px; }
+    .information-board .section strong {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+      color: #ffffff; }
+
+.owner {
+  text-align: center; }
+  .owner .avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 15px; }
+    .owner .avatar img {
+      display: block;
+      width: 80px;
+      height: 80px;
+      border-radius: 48px; }
+  .owner .name {
+    font-size: 14px; }
+    .owner .name a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none; }
+      .owner .name a:hover .display_name {
+        text-decoration: underline; }
+    .owner .name .username {
+      display: block;
+      color: #9baec8; }
+
+.contact-email {
+  text-align: center;
+  margin: 40px 0; }
+  .contact-email strong {
+    display: block;
+    color: #ffffff; }
+
+.sidebar-layout {
+  display: flex; }
+  .sidebar-layout .main {
+    flex: 1 1 auto;
+    padding: 14px 0; }
+    .sidebar-layout .main .panel {
+      padding-right: 14px; }
+  .sidebar-layout .sidebar {
+    border-left: 1px solid #3d4455;
+    width: 180px;
+    flex: 0 0 auto; }
+  .sidebar-layout .panel .panel-header {
+    background: #3d4455;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500; }
+  .sidebar-layout .panel .panel-body {
+    padding: 14px; }
+  .sidebar-layout .panel .panel-list ul {
+    list-style: none;
+    margin: 0; }
+    .sidebar-layout .panel .panel-list ul li {
+      margin: 0;
+      font-family: inherit;
+      font-size: 13px;
+      line-height: 18px; }
+      .sidebar-layout .panel .panel-list ul li a {
+        display: block;
+        padding: 7px 14px;
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        transition: all 200ms linear; }
+        .sidebar-layout .panel .panel-list ul li a i.fa {
+          margin-right: 5px; }
+        .sidebar-layout .panel .panel-list ul li a:hover {
+          color: #ffffff;
+          background-color: #1d2028;
+          transition: all 100ms linear; }
+        .sidebar-layout .panel .panel-list ul li a.selected {
+          color: #ffffff;
+          background-color: #2b90d9; }
+          .sidebar-layout .panel .panel-list ul li a.selected:hover {
+            background-color: #419bdd; }
+
+.features-list {
+  display: flex;
+  margin-bottom: 20px; }
+  .features-list .features-list__column {
+    flex: 1 1 0; }
+    .features-list .features-list__column ul {
+      list-style: none; }
+    .features-list .features-list__column li {
+      margin: 0; }
+
+.screenshot-with-signup {
+  display: flex;
+  margin-bottom: 20px; }
+  .screenshot-with-signup .mascot {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .screenshot-with-signup .mascot img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto; }
+  .screenshot-with-signup .simple_form {
+    width: 300px;
+    flex: 0 0 auto;
+    background: rgba(25, 27, 34, 0.5);
+    padding: 14px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); }
+    .screenshot-with-signup .simple_form .actions {
+      margin-bottom: 0; }
+    .screenshot-with-signup .simple_form .info {
+      text-align: center; }
+      .screenshot-with-signup .simple_form .info a {
+        color: #d9e1e8; }

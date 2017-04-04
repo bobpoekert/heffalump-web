@@ -1,0 +1,171 @@
+code {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400; }
+
+.form-container {
+  max-width: 400px;
+  padding: 20px;
+  margin: 0 auto; }
+
+.simple_form .input {
+  margin-bottom: 15px; }
+
+.simple_form span.hint {
+  display: block;
+  color: #9baec8;
+  font-size: 12px;
+  margin-top: 4px; }
+
+.simple_form p.hint {
+  margin-bottom: 15px; }
+
+.simple_form .label_input {
+  display: flex; }
+  .simple_form .label_input label {
+    flex: 0 0 auto;
+    width: 100px; }
+  .simple_form .label_input input {
+    flex: 1 1 auto; }
+
+.simple_form .input.file, .simple_form .input.select {
+  padding: 15px 0;
+  margin-bottom: 0; }
+  .simple_form .input.file label, .simple_form .input.select label {
+    font-family: inherit;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    padding-top: 5px; }
+
+.simple_form .fields-group {
+  margin-bottom: 25px; }
+
+.simple_form .input.boolean {
+  margin-bottom: 5px; }
+  .simple_form .input.boolean label {
+    font-family: inherit;
+    font-size: 14px;
+    color: white;
+    display: block;
+    width: auto; }
+  .simple_form .input.boolean label.checkbox {
+    position: relative;
+    padding-left: 25px; }
+  .simple_form .input.boolean input[type=checkbox] {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    margin: 0; }
+  .simple_form .input.boolean .hint {
+    padding-left: 25px;
+    margin-left: 0; }
+
+.simple_form input[type=text], .simple_form input[type=email], .simple_form input[type=password], .simple_form textarea {
+  background: transparent;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 2px solid #9baec8;
+  border-radius: 2px 2px 0 0;
+  padding: 7px 4px;
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  outline: 0;
+  font-family: inherit;
+  resize: vertical; }
+  .simple_form input[type=text]:invalid, .simple_form input[type=email]:invalid, .simple_form input[type=password]:invalid, .simple_form textarea:invalid {
+    box-shadow: none; }
+  .simple_form input[type=text]:focus:invalid, .simple_form input[type=email]:focus:invalid, .simple_form input[type=password]:focus:invalid, .simple_form textarea:focus:invalid {
+    border-bottom-color: #df405a; }
+  .simple_form input[type=text]:required:valid, .simple_form input[type=email]:required:valid, .simple_form input[type=password]:required:valid, .simple_form textarea:required:valid {
+    border-bottom-color: #79bd9a; }
+  .simple_form input[type=text]:active, .simple_form input[type=text]:focus, .simple_form input[type=email]:active, .simple_form input[type=email]:focus, .simple_form input[type=password]:active, .simple_form input[type=password]:focus, .simple_form textarea:active, .simple_form textarea:focus {
+    border-bottom-color: #2b90d9;
+    background: rgba(0, 0, 0, 0.1); }
+
+.simple_form .input.field_with_errors label {
+  color: #df405a; }
+
+.simple_form .input.field_with_errors input[type=text], .simple_form .input.field_with_errors input[type=email], .simple_form .input.field_with_errors input[type=password] {
+  border-bottom-color: #df405a; }
+
+.simple_form .input.field_with_errors .error {
+  display: block;
+  font-weight: 500;
+  color: #df405a;
+  margin-top: 4px; }
+
+.simple_form .actions {
+  margin-top: 30px; }
+
+.simple_form button, .simple_form .block-button {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  background: #2b90d9;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 500;
+  outline: 0;
+  margin-bottom: 10px; }
+  .simple_form button:hover, .simple_form .block-button:hover {
+    background-color: #419bdd; }
+  .simple_form button:active, .simple_form button:focus, .simple_form .block-button:active, .simple_form .block-button:focus {
+    position: relative;
+    top: 1px;
+    background-color: #2482c7; }
+  .simple_form button.negative, .simple_form .block-button.negative {
+    background: #df405a; }
+    .simple_form button.negative:hover, .simple_form .block-button.negative:hover {
+      background-color: #e3566d; }
+    .simple_form button.negative:active, .simple_form button.negative:focus, .simple_form .block-button.negative:active, .simple_form .block-button.negative:focus {
+      background-color: #db2a47; }
+
+.flash-message {
+  background: #282c37;
+  color: #9baec8;
+  border-radius: 4px;
+  padding: 15px 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center; }
+  .flash-message strong {
+    font-weight: 500; }
+
+.form-footer {
+  margin-top: 30px;
+  text-align: center; }
+  .form-footer a {
+    color: #ffffff;
+    text-decoration: none; }
+    .form-footer a:hover {
+      text-decoration: underline; }
+
+.oauth-prompt, .follow-prompt {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #9baec8; }
+  .oauth-prompt h2, .follow-prompt h2 {
+    font-size: 16px;
+    margin-bottom: 30px; }
+  .oauth-prompt strong, .follow-prompt strong {
+    color: #d9e1e8;
+    font-weight: 500; }
+
+.qr-code {
+  background: #fff;
+  padding: 4px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: inline-block; }
+  .qr-code svg {
+    display: block;
+    margin: 0; }
