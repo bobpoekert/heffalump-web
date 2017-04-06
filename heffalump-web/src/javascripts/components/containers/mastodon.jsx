@@ -57,8 +57,12 @@ const store = configureStore();
 // TODO: window.INITIAL_STATE is populated by a rails-generated script tag; replcae with an XHR
 //store.dispatch(hydrateStore(window.INITIAL_STATE));
 
+var statePopulated = false;
 export function populateInitialState(stateBlob) {
-    store.dispatch(hydrateStore(stateBlob));
+    if (!statePopulated) {
+        store.dispatch(hydrateStore(stateBlob));
+        statePopulated = true;
+    }
 }
 
 if (typeof(window.INITIAL_STATE) != 'undefined') {
